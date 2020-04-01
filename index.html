@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Leap year detector</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="jumbotron">
+    <h1>Leap year detector</h1>
+    </div>
+
+    <form id="leap-year">
+      <div class="form-group">
+        <label for="year">Enter a year and find out if it's a leap year:</label>
+        <input type="text" id="year">
+      </div>
+
+      <button type="submit" class="btn btn-danger">Find out!</button>
+    </form>
+    <div id="result">
+      <p><span class="year"></span> is <span class="not"></span> a leap year.</p>
+    </div>
+  </div>
+</body>
+</html>
